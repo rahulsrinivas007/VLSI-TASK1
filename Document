@@ -1,0 +1,110 @@
+1. Introduction
+
+VLSI stands for Very Large Scale Integration.
+It is used to design integrated circuits by combining thousands of transistors into a single chip.
+Digital logic gates are the basic building blocks of VLSI systems.
+
+
+2. VLSI Design Flow
+
+1. Specification : Defines what the circuit or system should do, including required features and performance.
+
+2. Design Entry : The circuit design is created using logic diagrams, HDL code, or schematic tools.
+
+3. Functional Simulation : The designed circuit is tested to check whether it produces correct outputs.
+
+4. Logic Synthesis : The design is converted into logic gates and optimized for implementation.
+
+5. Physical Design : The actual layout of transistors, wires, and components is created on the chip.
+
+6. Verification : Checks are performed to ensure the design works correctly without errors.
+
+7. Fabrication : The verified chip design is manufactured on silicon wafers.
+
+
+3. Logic Gate Truth Tables
+
+AND GATE
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+OR GATE
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 1 |
+
+NOT GATE
+
+| A | Y |
+| - | - |
+| 0 | 1 |
+| 1 | 0 |
+
+NAND GATE
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 1 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+NOR GATE
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 0 |
+
+XNOR
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 1 |
+| 0 | 1 | 0 |
+| 1 | 0 | 0 |
+| 1 | 1 | 1 |
+
+XOR
+
+| A | B | Y |
+| - | - | - |
+| 0 | 0 | 0 |
+| 0 | 1 | 1 |
+| 1 | 0 | 1 |
+| 1 | 1 | 0 |
+
+HALF ADDER
+
+| A | B | X | Y |
+| - | - | - | - |
+| 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 1 | 0 |
+| 1 | 1 | 0 | 1 |
+
+X - SUM ; Y - CARRY
+
+4. Half Adder Explanation
+
+Half Adder is a combinational circuit used for binary addition.
+It adds two one-bit binary inputs and produces Sum and Carry outputs.
+
+
+5. Observations
+
+- All gates produced correct outputs.
+- XOR gate output becomes high when inputs are different.
+- Half Adder successfully generated Sum and Carry outputs.
+- Initial wiring mistakes were corrected during simulation.
